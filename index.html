@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildflower Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About Me</a>
+                <a href="#">Experience</a>
+                <a href="#">Projects</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="header-text">
+                <p>Web3 Product Manager</p>
+                <h1>Hi, I'm <span>Wildflower</span><br>I am a Product Manager and Blockchain Consultant</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About me section  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"></div>
+                    <img src="pictures/Favour_Onukogu_official_mest_photo.png" class="background-image" >
+                    <!-- how do I identify and tyle this particular picture -->
+            </div>
+                <div class="about-col-2"></div>
+                <h1 class="sub-title"> Who is WildFlower</h1>
+                <p>Favour onukogu  also know as <span></span>is an experienced product manager specializing in blockchain, web3 and product development for startups. she believes in the power of teams to build products to put smiles on people</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" >Skills</p> 
+                    <p class="tab-links">Certification</p>
+                    <p class="tab-links">Education</p>
+                </div>
+                <div class="tab-contents">
+                    <ul>
+                        <li><span>UX Research</span><br>Conducting Product Research</li>
+                        <li><span>Product Development</span><br>Conducting Product Research</li>
+                        <li><span>Agile Development</span><br>Conducting Product Research</li>
+                <div class="tab-contents">
+                    <ul>
+                        <li><span>UX Research</span><br>Conducting Product Research</li>
+                        <li><span>Product Development</span><br>Conducting Product Research</li>
+                        <li><span>Agile Development</span><br>Conducting Product Research</li>
+                    </ul>
+                </div>
+                <div class="tab-contents">
+                    <ul>
+                        <li><span>UX Research</span><br>Conducting Product Research</li>
+                        <li><span>Product Development</span><br>Conducting Product Research</li>
+                        <li><span>Agile Development</span><br>Conducting Product Research</li>
+            </div>
+        </div>
+        <!--PORTFOLIO--->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Portfolio<h1>
+                        <div class="services-list">
+                        </div>
+                        <div>
+                        <i class="fa-brands fa-product-hunt"></i>
+                        <h2>Product Management<h2>
+                            <p>I am well skilled at taking a problem, brainstorming ideas and bringing it to life
+                                        through agile principles and design thinking</p>
+                                    <a href="#">learn more</a>
+                        </div>
+            </div>
+        </div>
+        <div>
+            <i class="fa-brands fa-product-hunt"></i>
+            <h2>Product Management<h2>
+                    <p>I am well skilled at taking a problem, brainstorming ideas and bringing it to life through agile
+                        principles and design thinking</p>
+                    <a href="#">learn more</a>
+        
+        </div>
+        </div>
+        </div>
+        <div>
+            <i class="fa-brands fa-product-hunt"></i>
+            <h2>Product Management<h2>
+                    <p>I am well skilled at taking a problem, brainstorming ideas and bringing it to life through agile
+                        principles and design thinking</p>
+                    <a href="#">learn more</a>
+        </div>
+        </div>
+        </div>
+        <div id="projects">
+            <div class="container">
+                <h1 class="sub-title">All Projects done by me</h1>
+                <div class="wish-list">
+                    <div class="work">
+                        <img src="pictures/wildflower_logo.png">
+                        <div class="layer">
+                            <h3>Rubicon Games</h3>
+                            <p>Ruubicon Games was built to teach people how to use games to learn new thinking</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pictures/wildflower_logo.png">
+                        <div class="layer">
+                            <h3>Rubicon Games</h3>
+                            <p>Ruubicon Games was built to teach people how to use games to learn new thinking</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pictures/wildflower_logo.png">
+                        <div class="layer">
+                            <h3>Rubicon Games</h3>
+                            <p>Rubicon Games was built to teach people how to use games to learn new thinking</p>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var contents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontents.classList.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</body>
+</html>
